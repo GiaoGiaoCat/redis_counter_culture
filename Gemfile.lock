@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    redis_counter_culture (0.1.0)
+      activerecord
+      activesupport
+      redis-objects
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (5.2.1)
+      activesupport (= 5.2.1)
+    activerecord (5.2.1)
+      activemodel (= 5.2.1)
+      activesupport (= 5.2.1)
+      arel (>= 9.0)
+    activesupport (5.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    arel (9.0.0)
+    concurrent-ruby (1.0.5)
+    i18n (1.1.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.11.3)
+    mock_redis (0.19.0)
+    mysql2 (0.5.2)
+    rake (10.5.0)
+    redis (4.0.2)
+    redis-objects (1.4.3)
+      redis (~> 4.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  minitest (~> 5.0)
+  mock_redis
+  mysql2
+  rake (~> 10.0)
+  redis_counter_culture!
+
+BUNDLED WITH
+   1.16.1
